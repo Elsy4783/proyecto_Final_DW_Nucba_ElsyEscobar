@@ -516,6 +516,25 @@ gap: 30px;
   width: 92%;
   
 }
+
+.tittle-contacto {
+  background: linear-gradient(
+    95deg,
+    rgba(241, 235, 40, 1) 0%,
+    rgba(65, 32, 214, 1) 16%,
+    rgba(245, 10, 10, 0.9920343137254902) 69%
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-weight: 800;
+  padding: 30px 45px 20px 45px;
+}
+
 #contact-form {
   width: 100%;
   margin-bottom: 50px;
@@ -554,6 +573,7 @@ gap: 30px;
 }
 
 /*  formulario */
+
 .form-container {
   width: 45%;
   margin: 0 auto;
@@ -564,6 +584,8 @@ gap: 30px;
 
 .form-group {
   margin-bottom: 20px;
+  color: blue;
+  font-weight: 500;
 }
 
 .form-label {
@@ -578,10 +600,11 @@ gap: 30px;
 
 .form-button {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #0f0344;
   color: white;
-  border: none;
+  border-radius: 0.8rem;
   cursor: pointer;
+  font-size: 19px;
 }     
 
 .footer {
