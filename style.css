@@ -721,6 +721,81 @@ main {
 /* XXXXXXXXXXXXXXXXXXXXXXXXX 992PX XXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 @media (max-width: 992px) {
+  /* XXXXXXXXXXXXXXXXX section 1 / PORTADA XXXXXXXXXXXXXXXXXXXXXXX*/
+
+  .portada {
+    width: 100%;
+  }
+
+  .titulo {
+    width: 100%;
+  }
+
+  .titulo h1 {
+    font-size: 52px;
+    padding: 10px;
+  }
+
+  /*XXXXXXXXXXXXXXXXXXX section 4 / COLECTIVIDADES / XXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+  #colectividades {
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+  }
+
+  #colectividades h2 {
+    font-size: 35px;
+  }
+  .container_colectividades {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .colect-img {
+    width: 100%;
+  }
+
+  .colect-img img {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .colect-text {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .colect-text p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .colect-text p span {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .colect-text .btn-participa {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+  }
+
+  .colect-text .btn-participa a {
+    text-decoration: none;
+    border: 3px;
+    background-color: var(--azul);
+    border-radius: 12px;
+    color: var(--blanco);
+    padding: 15px 15px;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+  }
 }
 /* XXXXXXXXXXXXXXXXXXXXXXXXX 678PX XXXXXXXXXXXXXXXXXXXXXXXXX*/
 
