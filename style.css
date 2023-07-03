@@ -545,8 +545,9 @@ main {
 }
 
 .box2 h2 {
-  font-size: 25px;
+  font-size: 30px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .box2 span {
@@ -619,6 +620,8 @@ main {
 .form-input {
   width: 100%;
   padding: 5px;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(133, 128, 128);
 }
 
 .form-button {
@@ -777,7 +780,7 @@ main {
     transform: scale(1.1);
   }
 
-  /*BODY*/
+  /*XXXXXXXXXXXXXXXXXXXXXXXXXX BODY XXXXXXXXXXXXXXXXXXXXXX*/
 
   body {
     background-image: url(/img/13.jpg);
@@ -801,7 +804,7 @@ main {
     padding: 10px;
   }
 
-  /* section 2 / HERO */
+  /* XXXXXXXXXXXXXXXXXX section 2 / HERO XXXXXXXXXXXXXXXXXXXXXXXXX*/
   #hero {
     flex-direction: column;
     justify-content: center;
@@ -812,6 +815,10 @@ main {
     margin: 0;
     padding: 0;
   }
+
+  .hero-info h1 {
+    padding: 10px;
+  }
   .hero-info p {
     font-size: 16px;
     width: 100%;
@@ -820,12 +827,21 @@ main {
     width: 90%;
     margin: 10px;
   }
+  /*XXXXXXXXXXXXXXXXXXX section 3 / INFO / XXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+  #info {
+    padding: 22px;
+    margin: 40px;
+    width: 100%;
+  }
+
   #info p {
-    font-size: 23px;
-    width: 90%;
-    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
     text-align: center;
   }
+  /*XXXXXXXXXXXXXXXXXXX section 4 / COLECTIVIDADES / XXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
   #colectividades {
     flex-direction: column;
@@ -833,81 +849,208 @@ main {
     width: 100%;
     margin: 0;
   }
-  .colect-info {
-    width: 90%;
+
+  #colectividades h2 {
+    font-size: 35px;
+  }
+  .container_colectividades {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .colect-img {
+    width: 100%;
+  }
+
+  .colect-img img {
+    width: 100%;
     margin: 10px;
   }
+
   .colect-text {
     width: 100%;
     margin: 10px;
-  }
-
-  .colect-text h2 {
-    font-size: 30px;
-    width: 100%;
-    font-weight: 800;
-    text-align: center;
-    padding: 0;
-  }
-
-  .colect-text p {
-    font-size: 16px;
-    width: 100%;
     padding: 10px;
   }
 
-  .colect-text p span {
+  .colect-text p {
     font-size: 20px;
-    font-weight: 800;
+    margin-top: 10px;
   }
 
-  .colect-text p a {
-    font-size: 18px;
-    font-weight: 600;
+  .colect-text p span {
+    font-size: 22px;
+    font-weight: 700;
   }
+
+  .colect-text .btn-participa {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+  }
+
+  .colect-text .btn-participa a {
+    text-decoration: none;
+    border: 3px;
+    background-color: var(--azul);
+    border-radius: 12px;
+    color: var(--blanco);
+    padding: 15px 15px;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /*XXXXXXXXXXXXXXXXXXX section 5 / ACTIVIDADES / XXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+  .container_actividades {
+    padding: 20px;
+    margin: 10px 0;
+  }
+
+  .container_actividades h2 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+
+  .btn-participa_act a {
+    font-size: 20px;
+  }
+
+  /* XXXXXXXXXXXXXXXXXXXXX  section 6 / EMPRENDIMIENTOS XXXXXXXXXXXXXXXXXXXXXXX*/
+
+  #emprend h2 {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    font-weight: 800;
+    padding: 20px;
+  }
+
+  .container_emprend {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .emp_card {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px solid yellow;
+    width: 70%;
+    margin: 10px;
+    height: 450px;
+  }
+
+  .card_img {
+    width: 230px;
+  }
+
+  .tittle {
+    font-size: 30px;
+  }
+
+  .card_description {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .card_btns a {
+    font-size: 34px;
+  }
+
+  /*  XXXXXXXXXXXXXXXXXXXXXXX CONTACTO XXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+  .cont {
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: rgb(56, 101, 168);
+  }
+
+  #contact-form {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .form-container {
+    width: 80%;
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .tittle-contacto {
+    font-size: 45px;
+    margin-top: 20px;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(133, 128, 128);
+  }
+
+  .box2 h2 {
+    text-align: center;
+  }
+
+  /* XXXXXXXXXXXXXXXXXXXXX  FOOTER XXXXXXXXXXXXXXXXXXXXXXX*/
+
   .footer {
-    height: 250px;
+    height: 650px;
     width: 100%;
   }
   .footer .parte1 {
     width: 90%;
     gap: 30px;
     margin: 10px;
+    flex-direction: column;
   }
 
   .footer .parte1 .logo {
-    margin: 10px;
+    margin: 20px;
+    margin-top: 50px;
   }
   .footer .parte1 .logo img {
-    width: 150px;
+    width: 200px;
   }
 
   .footer .parte1 h2 {
     color: var(--blanco);
-    font-size: 20px;
+    font-size: 40px;
+    margin-top: 50px;
   }
-  .footer .parte1 .box1 .redes_sociales a {
-    color: white;
-    font-size: 20px;
-    margin: 20px;
+
+  .footer .parte1 .box1 .redes_sociales {
     display: flex;
-    transition: all 0.3s;
+    justify-content: center;
+    gap: 30px;
   }
-  .footer .parte1 .box1 .redes_sociales a:hover {
-    transform: scale(1.3);
-    color: var(--azul);
-    font-weight: 800;
+
+  .footer .parte1 .box1 .redes_sociales a {
+    font-size: 30px;
   }
 
   .footer .parte2 {
     color: white;
     display: flex;
     justify-content: center;
+    margin-top: 40px;
   }
   .footer .parte2 small {
-    font-size: 12px;
+    font-size: 22px;
+    text-align: center;
   }
 }
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX MEDIAQUERIES 576PX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
 @media (max-width: 576px) {
   header {
     background-color: var(--azul);
